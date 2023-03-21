@@ -1,0 +1,15 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library("rjson")
+setwd("D:/CIS550 Project/JSON")
+#yelp_business <- fromJSON(file = "yelp_academic_dataset_business.json")
+yelp_checkin <- jsonlite::fromJSON(file = "yelp_academic_dataset_checkin.json")
+yelp_review <- fromJSON(file = "yelp_academic_dataset_review.json")
+yelp_tip <- fromJSON(file = "yelp_academic_dataset_tip.json")
+yelp_user <- fromJSON(file = "yelp_academic_dataset_user.json")
+```
+
