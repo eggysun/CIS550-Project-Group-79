@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+<<<<<<< HEAD
+=======
+    "bootstrap": "^5.2.3",
+>>>>>>> b3e855aa08e4dd8e66f8f371954c4d2c47b83f07
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
